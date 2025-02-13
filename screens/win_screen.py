@@ -10,7 +10,7 @@ class WinScreen:
         self.font = pygame.font.Font(None, 50)
         self.button_font = pygame.font.Font(None, 40)
 
-        self.trophy = pygame.image.load("trophy.png")
+        self.trophy = pygame.image.load("../assets/trophy.png")
         self.trophy = pygame.transform.scale(self.trophy, (150, 150))
         self.trophy_rect = self.trophy.get_rect(center=(SCREEN_WIDTH // 2, 120))
 

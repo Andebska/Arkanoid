@@ -1,6 +1,6 @@
 import pygame
 from game import Game
-from menu import Menu
+from screens.menu import Menu
 from settings import SCREEN_WIDTH,SCREEN_HEIGHT
 
 pygame.init()

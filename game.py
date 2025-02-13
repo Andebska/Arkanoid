@@ -1,11 +1,11 @@
 import pygame
 from settings import SCREEN_WIDTH, SCREEN_HEIGHT, BRICK_ROWS, BRICK_COLUMNS, FPS, BLACK
-from paddle import Paddle
-from ball import Ball
-from brick import Brick
-from score import Score
-from game_over import GameOverScreen
-from win_screen import WinScreen
+from objects.paddle import Paddle
+from objects.ball import Ball
+from objects.brick import Brick
+from objects.score import Score
+from screens.game_over import GameOverScreen
+from screens.win_screen import WinScreen
 
 class Game:
     def __init__(self):
